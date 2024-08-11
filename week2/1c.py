@@ -6,6 +6,7 @@ def eulerian_cycle(graph):
 
     all_edges = [item for val in graph.values() for item in val ]
     print(f"Length of Edges is {len(all_edges)}.")
+    print("all_edges")
     print(all_edges)
 
     # start = random.choice(all_edges)
@@ -13,7 +14,7 @@ def eulerian_cycle(graph):
     # path.append(start)
 
     print("Finding...")
-    while len(path) < len(all_edges):
+    while len(path) < len(1):
         # print(len(path), len(all_edges))
         print(f"{path} <= Current Path")
 
@@ -56,7 +57,7 @@ with open("1.sam.log") as file:
     print(graph)
 
     # print(graph)
-    # predicted_path = eulerian_cycle(graph)
+    predicted_path = eulerian_cycle(graph)
     # predicted_path = [str(i) for i in predicted_path]
     # formatted_predicted_path = " ".join(predicted_path)
     # with open("1.ans.sam.log", "w") as ans_file:
