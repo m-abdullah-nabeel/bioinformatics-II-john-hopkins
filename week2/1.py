@@ -56,7 +56,7 @@ def EulerianCycle(graph):
     return eulerian_path
     
 # EulerianCycle\\inputs\\input_7.txt
-with open("1.test.log") as file:
+with open("1.sam.log") as file:
     graph = {}
     for line in file:
         data = line.split(": ")

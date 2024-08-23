@@ -26,7 +26,8 @@ def combine_by_start(kmers):
 # res = combine(sample)
 
 # print(res)
-with open("dataset_30182_3.txt") as f:
+# dataset_30182_3
+with open("2.txt") as f:
     all_kmers = []
     for line in f:
         all_kmers.append(line.split(" "))
